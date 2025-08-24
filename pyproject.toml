@@ -1,0 +1,13 @@
+[project]
+name = "pandas-playbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "numpy",
+    "kagglehub>=0.3.12",
+    "kaggle>=1.7.4.5",
+]
