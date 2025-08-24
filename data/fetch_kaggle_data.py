@@ -16,3 +16,9 @@ df = kagglehub.load_dataset(
 
 print("First 5 records:", df.head())
 df.to_csv("data/raw/cancer-data.csv", index=False)
+
+# i use 4 datasets from kaggle use them
+# 1.  world gdp growth data from `sazidthe1/world-gdp-growth`
+# 2.  amazon sales data from `zahidmughal2343/amazon-sales-2025`
+# 3.  cancer data from `erdemtaha/cancer-data`
+# 4.  NIFTY-50 data from `rohanrao/nifty50-stock-market-data`
